@@ -1,1 +1,18 @@
-/* No CSS *//*# sourceMappingURL=style.css.map */
+html { box-sizing: border-box; }
+
+*, *:before, *:after { box-sizing: inherit; margin: 0; padding: 0; }
+
+body { font-size: 16px; background-color: #e5eff5; font-family: "Karla", sans-serif; }
+
+.container { width: 90%; margin: 0 auto; }
+
+.main { width: 90%; margin: 3rem auto; border-radius: 1rem; }
+
+.jumbotron { background-color: white; padding: 2rem 0; }
+
+.jumbotron h1 { color: #2ab2af; }
+
+.jumbotron .destacado { color: #c0df34; font-weight: 700; padding: 1rem 0; }
+
+.jumbotron p { color: #98a6bd; }
+/*# sourceMappingURL=style.css.map */

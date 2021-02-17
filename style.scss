@@ -1,0 +1,46 @@
+$primary-font:'Karla', sans-serif;
+$primary-color:hsl(179, 62%, 43%);
+$secondary-color: hsl(71, 73%, 54%);
+$bg-color: hsl(204, 43%, 93%);
+$font-color: hsl(218, 22%, 67%);
+
+
+
+html {
+    box-sizing: border-box;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-size: 16px;
+    background-color: $bg-color;
+    font-family: $primary-font;
+}
+.container{
+    width: 90%;
+    margin: 0 auto;
+}
+.main{
+    width: 90%;
+    margin: 3rem auto;
+    border-radius: 1rem;
+}
+.jumbotron{
+    background-color: white;
+    padding: 2rem 0;
+    h1{
+        color:$primary-color;
+    }
+    .destacado{
+        color: $secondary-color;
+        font-weight: 700;
+        padding: 1rem 0;
+    }
+    p{
+        color:$font-color;
+    }
+}
+
